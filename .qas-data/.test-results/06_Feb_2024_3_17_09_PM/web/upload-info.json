@@ -1,0 +1,157 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "YYY",
+    "line": 9,
+    "description": "",
+    "id": "YYY",
+    "tags": [],
+    "uri": "XXX/YYY",
+    "testSuiteName": "XXX",
+    "type": "web",
+    "appName": "chrome",
+    "capability": {
+      "remoteUrl": "https://qas.qmetry.com/bank",
+      "type": "web",
+      "selectBrowser": "chrome",
+      "selectDevice": "",
+      "isRemote": false,
+      "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+      "isDebugMode": false,
+      "details": {
+        "deviceMetrics": {
+          "name": "",
+          "width": "",
+          "height": "",
+          "pixelRatio": "",
+          "userAgent": ""
+        }
+      }
+    },
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "YYY",
+        "keyword": "Scenario",
+        "description": "",
+        "line": 9,
+        "name": "YYY",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "Passed",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://qas.qmetry.com/bank",
+          "type": "web",
+          "selectBrowser": "chrome",
+          "selectDevice": "",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": false,
+          "details": {
+            "deviceMetrics": {
+              "name": "",
+              "width": "",
+              "height": "",
+              "pixelRatio": "",
+              "userAgent": ""
+            }
+          }
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 1,
+            "name": "get https://qas.qmetry.com/bank",
+            "match": {
+              "location": "YYY/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4621000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "clear id=txtUsername",
+            "match": {
+              "location": "YYY/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 604000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "sendKeys Bob into id=txtUsername",
+            "match": {
+              "location": "YYY/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 642000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "clear id=txtPassword",
+            "match": {
+              "location": "YYY/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 593000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "sendKeys ****** into id=txtPassword",
+            "match": {
+              "location": "YYY/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 605000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "click on id=btnLogin",
+            "match": {
+              "location": "YYY/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 634000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 7,
+            "name": "click on xpath=//button",
+            "match": {
+              "location": "YYY/61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 619000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
